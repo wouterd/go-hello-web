@@ -15,7 +15,7 @@ func main() {
 
 	port, exists := os.LookupEnv("SERVER_PORT")
 	if !exists {
-		port = "8080"
+		port = "80"
 	}
 
 	log.Printf("Starting a server on port %v", port)

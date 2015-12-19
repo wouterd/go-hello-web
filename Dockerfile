@@ -6,4 +6,4 @@ RUN go install github.com/wouterd/go-hello-web
 
 ENTRYPOINT /go/bin/go-hello-web
 
-EXPOSE 8080
+EXPOSE 80
