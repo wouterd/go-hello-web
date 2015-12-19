@@ -9,6 +9,7 @@ import (
 
 func main() {
 	http.HandleFunc("/foo", func(w http.ResponseWriter, r *http.Request) {
+		log.Print("Serving hello!")
 		fmt.Fprint(w, "Hello, World!")
 	})
 
